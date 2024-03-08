@@ -1,0 +1,56 @@
+.analysis5-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.analysis5__title {
+	margin-bottom: 1rem;
+}
+
+.simulation-image {
+	border-radius: 10px;
+	width: 475px;
+}
+
+.warning-message-container {
+	border: 2px solid var(--border-color);
+	margin-top: 1.2rem;
+	padding: 0.3rem 1rem;
+	border-radius: 10px;
+}
+
+.warning-message-container h4 {
+	text-align: center;
+	margin-bottom: 0.3rem;
+}
+
+.warning-message-container p {
+	margin-bottom: 0.3rem;
+	color: rgb(196, 13, 13);
+}
+
+table {
+	border-collapse: separate;
+	border: 1px solid var(--border-color);
+	margin-top: 1rem;
+	border-radius: 10px;
+}
+
+td, tr, th {
+	padding: 0.2rem 0.5rem;
+}
+
+td, th {
+    border-left:solid var(--border-color) 1px;
+    border-top:solid var(--border-color) 1px;
+}
+
+th {
+	border-top: none;
+}
+
+td:first-child, th:first-child {
+	border-left: none;
+}

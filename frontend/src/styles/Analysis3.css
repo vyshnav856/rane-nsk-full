@@ -1,0 +1,27 @@
+.analysis3-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 0.6rem;
+}
+
+.analysis3-container h3 {
+	margin-bottom: 0.8rem;
+}
+
+.analysis3-container button {
+	padding: 0.4rem 1rem;
+	border-radius: 20px;
+}
+
+.nodes-image {
+	border-radius: 10px;
+	width: 475px;
+}
+
+.force-inputs-container {
+	display: flex;
+	flex-direction: column;
+	
+}

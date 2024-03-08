@@ -1,0 +1,46 @@
+.analysis1-wrapper h3 {
+	text-align: center;
+}
+
+.plane-image-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 1.5rem;
+
+	margin-top: 2rem;
+}
+
+.plane-image {
+	max-width: 475px;
+
+	border: 3px solid #00f;
+	border-radius: 10px;
+	box-shadow: 0 0 5px #00f, 0 0 5px #00f, 0 0 10px #00f, 0 0 15px #00f;
+}
+
+.plane-selection-container {
+	margin-top: 1rem;
+
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.plane-selection-container__button {
+	cursor: pointer;
+	border: 2px solid rgba(255, 255, 255, 0);
+}
+
+.plane-selection-container__button.selected {
+	cursor: pointer;
+	border: 2px solid white;
+}
+
+.plane-selection-container__button:hover {
+	background-color: var(--accent-color-950);
+}
+
+.plane-selection-container__button:active {
+	background-color: var(--accent-color-900);
+}
